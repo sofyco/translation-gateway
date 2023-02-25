@@ -1,11 +1,11 @@
-# Symfony Bundle Template
+# Translation Gateway
 
-[![CI](https://github.com/sofyco/demo-bundle/actions/workflows/ci.yaml/badge.svg)](https://github.com/sofyco/demo-bundle/actions/workflows/ci.yaml)
-[![codecov](https://codecov.io/gh/sofyco/demo-bundle/branch/main/graph/badge.svg)](https://codecov.io/gh/sofyco/demo-bundle)
-[![stable](http://poser.pugx.org/sofyco/demo-bundle/v)](https://packagist.org/packages/sofyco/demo-bundle)
+[![CI](https://github.com/sofyco/translation-gateway/actions/workflows/ci.yaml/badge.svg)](https://github.com/sofyco/translation-gateway/actions/workflows/ci.yaml)
+[![codecov](https://codecov.io/gh/sofyco/translation-gateway/branch/main/graph/badge.svg)](https://codecov.io/gh/sofyco/translation-gateway)
+[![stable](http://poser.pugx.org/sofyco/translation-gateway/v)](https://packagist.org/packages/sofyco/translation-gateway)
 
 ## Installation
 
 ```bash
-composer req sofyco/demo-bundle
+composer req sofyco/translation-gateway
 ```
