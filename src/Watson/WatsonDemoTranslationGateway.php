@@ -9,8 +9,8 @@ use Symfony\Contracts\HttpClient\HttpClientInterface;
 
 final readonly class WatsonDemoTranslationGateway implements TranslationGatewayInterface
 {
-    private const DETECT_URl = 'https://www.ibm.com/demos/live/watson-language-translator/api/translate/detect';
-    private const TRANSLATE_URl = 'https://www.ibm.com/demos/live/watson-language-translator/api/translate/text';
+    private const string DETECT_URl = 'https://www.ibm.com/demos/live/watson-language-translator/api/translate/detect';
+    private const string TRANSLATE_URl = 'https://www.ibm.com/demos/live/watson-language-translator/api/translate/text';
 
     public function __construct(private HttpClientInterface $httpClient)
     {
