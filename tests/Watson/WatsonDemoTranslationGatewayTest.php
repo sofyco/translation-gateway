@@ -15,7 +15,7 @@ final class WatsonDemoTranslationGatewayTest extends TestCase
         $response->method('getStatusCode')->willReturn(200);
         $response->method('toArray')->willReturn([
             'payload' => [
-                'languages' => [
+                'languages' =>      [
                     [
                         'language' => [
                             'language' => 'en',
